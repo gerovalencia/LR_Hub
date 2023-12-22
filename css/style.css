@@ -1,0 +1,252 @@
+body {
+    font-family: "Montserrat";
+    background-color: #536de4;
+    color: blueviolet;
+  }
+  
+  header {
+    padding-bottom: 5%;
+    margin: 0;
+    height: 6rem;
+    animation: fadeInDown 1s ease-out;
+  }
+  
+  .container-fluid {
+    padding: 0.5%;
+    margin: 0;
+    position: fixed;
+  }
+  
+  h1, h2 {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+    color: blueviolet;
+  }
+  
+  h3 {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 10%;
+  }
+  
+  div.container {
+    height: 4rem;
+    margin: 1%;
+  }
+  
+  a.navbar-brand {
+    height: 4rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  nav {
+    padding: 2%;
+    background-color: #536de4;
+  }
+  
+  .logo {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+  }
+  
+  .prof-pic {
+    height: 30rem;
+    padding: 2rem;
+  }
+  
+  .btn,
+  a.nav-link {
+    background-color: #536de4;
+    color: #EAE7B1;
+    font-weight: 700;
+  }
+  
+  div.row {
+    padding-top: 5%;
+    padding-right: 0;
+    text-align: center;
+    width: 100%;
+  }
+  
+  div h1 {
+    padding-top: 2%;
+  }
+  
+  div p {
+    padding-bottom: 5%;
+  }
+  
+  div button {
+    padding: 0;
+  }
+  
+  nav.navbar {
+    height: 4.5rem;
+    padding: 0;
+  }
+  
+  ul.social-media,
+  ul.social-media-foot {
+    list-style: none;
+    padding-top:  2%;
+    margin: 0;
+  }
+  
+  li.sc-link,
+  li.sc-link-foot {
+    display: inline;
+    padding: 1%;
+    height: 4rem;
+    text-decoration: none;
+  }
+  
+  .sc-link a,
+  .sc-link-foot a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 10%;
+    background-color: #536de4;
+    height: 5rem;
+    width: 100%;
+  }
+  
+  .demo-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F44336;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .demo-link:hover {
+    background-color: #E53935;
+  }
+  
+  .title h1 {
+    animation: fadeInDown 1s ease-out;
+  }
+  
+  .social-media li {
+    animation: fadeIn 1s ease-out;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+  }
+  
+  #projects {
+    padding-top: 1%;
+    padding-bottom: 10%;
+    margin: auto;
+  }
+  
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .education {
+    padding-top: 5%;
+    text-align: center;
+  }
+  
+  .education h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .education-item {
+    margin-bottom: 3rem;
+  }
+  
+  .education-item .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .education-item .subtitle {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  /* Skills */
+  .skills {
+    padding-top: 5%;
+    text-align: center;
+  }
+  
+  .skills h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .skills-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .skills-item {
+    background-color: #82CD47;
+    color: #EAE7B1;
+    font-weight: 700;
+    padding: 8px 16px;
+    margin: 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .skills-item:hover {
+    background-color: #7CB342;
+  }
+
+  .background-image-div {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Set your desired height */
+}
+
+.background-image-div img {
+    width: 100%;
+    height: 150%;
+    object-fit: contain; /* Maintain image aspect ratio while covering the entire div */
+}
+
+.background-image-div h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: blueviolet; /* Set the text color for better visibility */
+    z-index: 1; /* Ensure the text is above the image */
+}
